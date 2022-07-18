@@ -1,0 +1,48 @@
+@import './fonts.scss';
+
+:root {
+  --black: #000;
+  --title: #1C2323;
+  --text: #404242;
+  --mainColor: #58A9A5;
+  --lightGreen: #CCF0E6;
+  --green: #486958;
+  --white: #fff;
+  --yellow: #FEC62D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+a {
+  text-decoration: none !important;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.container{
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
